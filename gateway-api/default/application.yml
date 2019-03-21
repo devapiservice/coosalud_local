@@ -23,7 +23,7 @@ zuul:
       stripPrefix: false
     ms-coosalud-grpfamiliar:
       path: /ms-coosalud-grpfamiliar/v1/**
-      serviceId: MS-COOSALUD-GRPDAMILIAR
+      serviceId: MS-COOSALUD-GRPFAMILIAR
       stripPrefix: false
     ratelimit:
       enabled: false
