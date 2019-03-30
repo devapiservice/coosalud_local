@@ -29,6 +29,10 @@ zuul:
       path: /ms-coosalud-vivienda/v1/**
       serviceId: MS-COOSALUD-VIVIENDA
       stripPrefix: false
+    ms-coosalud-saludfamiliar:
+      path: /MedicionSaludFamiliar/v1/**
+      serviceId: MS-COOSALUD-SALUDFAMILIAR
+      stripPrefix: false
     ratelimit:
       enabled: false
       repository: IN_MEMORY
