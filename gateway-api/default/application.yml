@@ -33,6 +33,10 @@ zuul:
       path: /ms-coosalud-vacuna/v1/**
       serviceId: MS-COOSALUD-VACUNA
       stripPrefix: false
+    ms-coosalud-remision:
+      path: /ms-coosalud-remision/v1/**
+      serviceId: MS-COOSALUD-REMISION
+      stripPrefix: false
     ms-coosalud-saludfamiliar:
       path: /MedicionSaludFamiliar/v1/**
       serviceId: MS-COOSALUD-SALUDFAMILIAR
