@@ -37,6 +37,10 @@ zuul:
       path: /ms-coosalud-remision/v1/**
       serviceId: MS-COOSALUD-REMISION
       stripPrefix: false
+    ms-coosalud-nino:
+      path: /ms-coosalud-nino/v1/**
+      serviceId: MS-COOSALUD-NINO
+      stripPrefix: false
     ms-coosalud-bebe:
       path: /ms-coosalud-bebe/v1/**
       serviceId: MS-COOSALUD-BEBE
