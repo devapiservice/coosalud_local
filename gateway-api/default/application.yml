@@ -45,6 +45,10 @@ zuul:
       path: /ms-coosalud-bebe/v1/**
       serviceId: MS-COOSALUD-BEBE
       stripPrefix: false
+    ms-coosalud-mujer:
+      path: /ms-coosalud-mujer/v1/**
+      serviceId: MS-COOSALUD-MUJER
+      stripPrefix: false
     ms-coosalud-saludfamiliar:
       path: /MedicionSaludFamiliar/v1/**
       serviceId: MS-COOSALUD-SALUDFAMILIAR
