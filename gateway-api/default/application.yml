@@ -53,6 +53,10 @@ zuul:
       path: /MedicionSaludFamiliar/v1/**
       serviceId: MS-COOSALUD-SALUDFAMILIAR
       stripPrefix: false
+    ms-coosalud-embarazo:
+      path: /GestacionEmbarazoParto/v1/**
+      serviceId: MS-COOSALUD-EMBARAZO
+      stripPrefix: false
     ms-coosalud-consmed:
       path: /ConsultaMedica/v1/**
       serviceId: MS-COOSALUD-CONSMED
