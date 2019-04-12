@@ -41,6 +41,14 @@ zuul:
       path: /ms-coosalud-nino/v1/**
       serviceId: MS-COOSALUD-NINO
       stripPrefix: false
+    ms-coosalud-adolecente:
+      path: /ms-coosalud-adolecente/v1/**
+      serviceId: MS-COOSALUD-ADOLECENTE
+      stripPrefix: false
+    ms-coosalud-adulto:
+      path: /ms-coosalud-adulto/v1/**
+      serviceId: MS-COOSALUD-ADULTO
+      stripPrefix: false
     ms-coosalud-bebe:
       path: /ms-coosalud-bebe/v1/**
       serviceId: MS-COOSALUD-BEBE
