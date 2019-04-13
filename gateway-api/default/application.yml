@@ -65,6 +65,10 @@ zuul:
       path: /GestacionEmbarazoParto/v1/**
       serviceId: MS-COOSALUD-EMBARAZO
       stripPrefix: false
+    ms-coosalud-independiente:
+      path: /ms-coosalud-independiente/v1/**
+      serviceId: MS-COOSALUD-INDEPENDIENTE
+      stripPrefix: false
     ms-coosalud-consmed:
       path: /ConsultaMedica/v1/**
       serviceId: MS-COOSALUD-CONSMED
